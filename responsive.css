@@ -15,7 +15,7 @@
 
 / Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .btn{
+  .btn-unavbar{
     width:100%;
   }
   .faceboo1{
