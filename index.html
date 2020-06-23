@@ -1,67 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon-dts.png">
+    <title>ProjectG11_DTS_Batch2</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <title>Uji Coba</title>
-</head>
-<body>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
     <header>
-        <div class="container">
-          <div class="header-left">
-            <img class="logo" src="jpl-logo-png-transparent.png">
-          </div>
-          <span class="fa fa-bars menu-icon"></span>
-          <div class="header-right">
-            <a href="index.html">Beranda</a>
-            <a href="#">Pelajaran</a>
-            <a href="#" class="login">Log in</a>
-          </div>
-          </div>
-          <div class="dropdown">
-          <button class="dropbtn">Tentang Kami
+    <!-- code untuk tombol navigasi -->
+    <div class="navbar" >
+      <!-- logo -->
+      <img class="logo" src="./digital-talent.png">
+      <a href="#home">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Team Kami
           <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Profil anggota</a>
-          </div>
+        </button>
+        <div class="dropdown-content">
+          <a href="#team1">Muhammad Zulfadhli</a>
+          <a href="#team2">Muhammad Afdal</a>
+          <a href="#team3">Muhammad Hadi Prasetiyo</a>
+          <a href="#team4">Novariadi</a>
         </div>
-      </header>
-    <div class="top-wrapper">
-        <div class="container">
-            <div class="btn-unavbar">
-                <a href="#" class="btn pendaftaran">Pendaftaran</a>
-                <a href="#" class="btn biayaprogram">Biaya Program</a>
-                <a href="profil.html" class="btn profil">Profil Pengajar</a>
-            </div>
-            <h1>WUJUDKAN IMPIAN ANDA BERSAMA KAMI</h1>
-            <h1>BELAJAR BAHASA JEPANG MEJADI MUDAH DAN SERU</h1>
-            <p>JPL adalah jalan anda untuk menguasai bahasa jepang dengan singkat</p>
-            <p>Kami menawarkan sistem pembelajaran yang efektif dan berstandar SS+</p>
-            <div class="btn-wrapper">
-                <a href="#" class="btn signup">Daftar</a>
-              </div>
-        </div>
+      </div>
     </div>
-    <div class="lesson-wrapper"></div>
-    <div class="message-wrapper"></div>
-    <footer>
-      <h5>copyright &copy; 2020 by G11</h5>
-    </footer>
-</body>
-   <div class="footer">
-   <div class="footer-logo">
-       <img src="https://github.com/hadi22-prog/Kelompok-G11/blob/master/1592835464022.png?raw=true">
-  </div>
-  <div class="footer-list">
-    <ul>
-      <li>Tentang</li>
-      <li>Karier</li>
-      <li>Hubungi Kami</li>
-    </ul>
-  </div>
-</div>
+    </header>
+
+    <!-- code untuk body atas-->
+    <div class="top-wrapper" id="home">
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="jpl-logo-png-transparent.png">
+        </div>
+          <h1>WUJUDKAN IMPIAN ANDA BERSAMA KAMI</h1>
+          <h1>BELAJAR BAHASA JEPANG MEJADI MUDAH DAN SERU</h1>
+          <h3>JPL adalah jalan anda untuk menguasai bahasa jepang dengan singkat</h3>
+          <h3>Kami menawarkan sistem pembelajaran yang efektif dan berstandar SS+</h3>
+          <div class="btn-wrapper">
+            <a href=https://mail.google.com/ class="btn signup"><span class="fa fa-envelope"></span>Daftar dengan Email</a>
+            <p>atau</p>
+            <a href=https://www.facebook.com/ class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+            <a href=https://twitter.com/ class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+          </div>
+      </div>
+    </div>
+
+    <!-- Profile Team -->
+    <div class="lesson-wrapper" >
+      <div class="container">
+        <div class="heading" id="team1">
+           <h2>Profile Team Kami G11!</h2>
+        </div>
+
+        <div class="lessons">
+          <!-- Masing-masing Team -->
+          <div class="lesson" id="team1">
+            <div class="lesson-icon">
+              <img class="profile" src="./img/bagus.jpg">
+              <p>Muhammad Zulfadhli</p>
+            </div>
+            <p class="text-contents">Makassar</p>
+          </div>
+          <!-- Masing-masing Team -->
+          <div class="lesson" id="team2">
+            <div class="lesson-icon">
+              <img class="profile" src="./img/bagus.jpg">
+              <p>Muhammad Afdal</p>
+             </div>
+            <p class="text-contents">Jakarta</p>
+          </div>
+          <!-- Masing-masing Team -->
+          <div class="lesson" id="team3">
+            <div class="lesson-icon">
+             <img class="profile" src="./img/bagus.jpg">
+              <p>Muhammad Hadi Prasetiyo</p>
+            </div>
+            <p class="text-contents">Bandung</p>
+          </div>
+          <!-- Masing-masing Team -->
+          <div class="lesson" id="team4">
+            <div class="lesson-icon">
+              <img class="profile" src="./img/bagus.jpg">
+              <p>Novariadi</p>
+            </div>
+            <p class="text-contents">Jakarta</p>
+          </div>
+          <!-- Masing-masing Team -->
+
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pesan Tambahan-->
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Apakah anda siap bergabung bersama kami?</h2>
+          <h3>Mari bergabung, kembangkan kreativitas anda</h3>
+        </div>
+        <span class="btn message">Gabung!</span>
+      </div>
+    </div>
+
+    <div class="contact-form">
+        <h3 class="section-title">Hubungi kami</h3>
+        <p>Email (Wajib Diisi)</p>
+        <!-- Tambahkan tag <input> -->
+        <input>
+
+        <p>Pesan (Wajib Diisi)</p>
+        <!-- Tambahkan tag <textarea> -->
+        <textarea></textarea>
+
+        <p>*Bidang Wajib Diisi</p>
+        <!-- Tambahkan tag <input> -->
+        <input class="contact-submit" type="submit" value="Kirim">
+
+      </div>
+    </div>
+
+    <!-- Code Footer-->
+   	<footer class="footer">
+		<h2>Social Media</h2>
+		<a href="#" class="fa-stack fa-2x">
+			<i class="fa fa-circle fa-stack-2x"style="color: #3b5999"></i>
+			<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+		</a>
+		<a href="#" class="fa-stack fa-2x">
+			<i class="fa fa-circle fa-stack-2x"style="color:#55acee"></i>
+			<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+		</a>
+		<a href="#" class="fa-stack fa-2x">
+			<i class="fa fa-circle fa-stack-2x"style="color:#e4405f"></i>
+			<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+		</a>
+		<a href="#" class="fa-stack fa-2x">
+			<i class="fa fa-circle fa-stack-2x"style="color:#cd201f"></i>
+			<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+		</a>
+		<p>Copyright &copy; DTS 2020</p>
+    	</footer>
+  </body>
 </html>
